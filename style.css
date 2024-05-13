@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+    font-weight : bold;
+    color:white; 
+}
+body{
+    font-family: "Playfair Display", serif;
+background-color: #080808;
+
+
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid bisque;
+
+}
+nav{
+margin-left: 20px;}
+ul{
+    display: flex;
+    list-style-type: none;
+   
+
+}
+ul li a{
+    margin:  0 5px;
+    border:2px solid bisque;
+    padding : 1px 10px 1px 10px;
+    text-decoration:none;
+    border-radius: 50px;
+
+}
+.logo{
+    border:2px solid black;
+    margin-right: 150px;
+    border-radius: 50%;
+    
+}
+nav{
+    margin-left: 100px;
+
+}
+
+.signup{
+    background-color: white;
+    color:black;
+
+}
+.signup:hover{
+    background-color:antiquewhite
+}
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0px 150px ;
+    flex-wrap: wrap;
+}
+.contentleft{
+    flex:1;
+    
+}
+.contentmid{
+    flex:2
+}
+.contentright{
+    flex:1;
+}
+.btn{
+  
+    padding:10px 10px;
+    background: white;
+
+    
+    color:black;
+}
+.btn:hover{
+    border-style: dotted;
+    background-color: bisque;
+}
+h2{
+    color:#5f5c5c;
+}
+
+p{
+    color: #b4aeae;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.c:hover{
+   color:rgb(236, 217, 193);
+
+   
+   
+}
+.m:hover{
+color: rgb(143, 143, 140);
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width:90%; 
+}
+
+img {
+max-width: 100%; 
+}
+@media screen and (max-width: 768px) {
+
+h2, p {
+font-size: 4vw; 
+}
+}
